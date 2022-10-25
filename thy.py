@@ -10,10 +10,7 @@ if "visibility" not in st.session_state:
 
 st.set_page_config(page_title="Thyroid detection",layout="wide")
 
-progress  = st.progress(0)
-for i in range(100):
-    time.sleep(0.1)
-    progress.progress(i + 1)
+
 
 st.title("Thyriod Disease Detection")
 #st.image("hh.jpg",width=650)
