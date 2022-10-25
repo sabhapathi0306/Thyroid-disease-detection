@@ -2,14 +2,11 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import time
 
-    
-if "visibility" not in st.session_state:
-    st.session_state.visibility = "visible"
-    st.session_state.disabled = False
+
 
 st.set_page_config(page_title="Thyroid detection",layout="wide")
-
 
 
 st.title("Thyriod Disease Detection")
@@ -35,6 +32,7 @@ if option=='Home':
      Example: TSH:1.4,FTI:109,T3:1.9,TT4:104,T4U:0.96,On Thyroxine:f,
      Tumor:f,thyroid surgery:f,Antimedication:f,sex:F,age:32
     """)
+    st.info("IF any unwanted expetion occurs either refresh the page or click on clear button")
     def clear_text():
         st.session_state["a"] =0.0
         st.session_state["b"] = 0.0
