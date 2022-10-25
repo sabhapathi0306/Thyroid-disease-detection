@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 
 
-progress = st.progress(0)
+progress  = st.progress(0)
 for i in range(100):
     time.sleep(0.1)
     progress.progress(i + 1)
