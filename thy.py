@@ -3,6 +3,13 @@ import streamlit as st
 import pickle
 import pandas as pd
 
+
+progress = s.progress(0)
+for i in range(100):
+    time.sleep(0.1)
+    progress.progress(i + 1)
+
+    
 if "visibility" not in st.session_state:
     st.session_state.visibility = "visible"
     st.session_state.disabled = False
