@@ -50,7 +50,6 @@ target = data[['target']]
 data = data.drop(['target'],axis = 1).astype('float')
 
 data = data.fillna(data.median())
-begin = time.time()
 model = RandomForestClassifier(n_estimators =  250,max_features = 'auto',max_depth= 70,bootstrap = True,n_jobs = -1)
 model.fit(data,target)
 
