@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import time
-
+import exam as e
 
 
 st.set_page_config(page_title="Thyroid detection",layout="wide")
@@ -104,10 +104,8 @@ if option=='Home':
 
     if pred:
         def testing(val):
-            dbfile = open('C:/Users/adith/Desktop/myp/Linkein_Api/app/JSON/model_trianed', 'rb')  
-            clf= pickle.load(dbfile)
             ans = val.iloc[0].to_numpy().reshape(1,-1)
-            predicts = clf.predict(ans)
+            predicts = e.model.predict(ans)
             st.write("--------------Results---------------------")
             if predicts == ['-']:
                 st.write('**Prediction result** :',str(predicts.tolist()))
