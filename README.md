@@ -39,5 +39,5 @@ For frontend and depolyment streamlit is considered as framework for this work a
 In framework considered only importent features based on model results [below figure],out of 30 features 11 features are considered as important.
 ![image](https://user-images.githubusercontent.com/70704151/197835621-f85e73f9-e87d-40ff-bc1d-a89ff14cb1bb.png)
 
-Webapp link: 
+Webapp link: https://sabhapathi0306-thyroid-disease-detection-thy-0m9u53.streamlitapp.com/
           
