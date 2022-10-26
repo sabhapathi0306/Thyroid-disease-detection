@@ -1,10 +1,5 @@
-from cgi import test
 import pandas as pd
-from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-import multiprocessing
-import time
-from sklearn.pipeline import Pipeline
 
 name= ['age','sex','on thyroxine','query on thyroxine' ,'on antithyroid medication','sick','pregnant','thyroid surgery','I131 treatment','query hypothyroid','query hyperthyroid','lithium','goitre',
 'tumor','hypopituitary','psych','TSH measured','TSH','T3 measured','T3','TT4 measured','TT4','T4U measured','T4U','FTI measured','FTI','TBG measured','TBG','referral source','target']
