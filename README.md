@@ -5,7 +5,7 @@ The thyroid gland is a small organ that’s located in the front of the neck, wr
 
 ## About dataset:
 Latest veersion of thyriod dataset is collected from the UCI archive and performed the Machine learning architectures to build the prediction on preprocessed dataset
-and the rchive of thyroid diagnoses obtained from the Garvan Institute, consisting of 9172 records from 1984 to early 1987.
+and the archive of thyroid diagnoses obtained from the Garvan Institute, consisting of 9172 records from 1984 to early 1987.
 
 Link for dataset: https://archive.ics.uci.edu/ml/datasets/thyroid+disease
 
